@@ -1,10 +1,10 @@
-money = 10
-print(money)
-day = 9.95
-number = bin(10)
-print(number)
-n = ~-7
-print(n)
-print(bin(9))
-print('-'*50)
-
+number = input('shuzi')
+c = 1 if number == 2 else 2
+print(c)
+n = 0
+while n < 10:
+    if n % 3 == 0:
+        print(n)
+    else:
+        print(n+1)
+    n += 1
