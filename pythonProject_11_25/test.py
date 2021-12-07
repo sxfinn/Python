@@ -1,3 +1,6 @@
+
+# for i in range(0,10,2):
+#     print(i)
 # number = input('shuzi')
 # c = 1 if number == 2 else 2
 # print(c)
