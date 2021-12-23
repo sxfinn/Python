@@ -1,5 +1,11 @@
 
 
+a = 'ab.cd.e.f'
+n = len(a)
+print(a[0:n:2])
+x = a.split('.',1)
+print(x)
+
 
 # def sum(a, b=1):
 #     return a + b
