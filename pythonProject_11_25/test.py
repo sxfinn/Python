@@ -1,10 +1,25 @@
+# a = {}
+# if a:
+#     print('test')
+# else:
+#     print('empty')
 
 
-a = 'ab.cd.e.f'
-n = len(a)
-print(a[0:n:2])
-x = a.split('.',1)
-print(x)
+string = [123, 'abc', (1, 2, 3), {4, 5, 6}]
+print(string[3])
+
+a = 'b'
+print((a))
+
+d = {'age': 23, 'name': 'Jame', 'score': 90}
+print(d['name'])
+print(d['score'])
+
+# a = 'ab.cd.e.f'
+# n = len(a)
+# print(a[0:n:2])
+# x = a.split('.',1)
+# print(x)
 
 
 # def sum(a, b=1):
