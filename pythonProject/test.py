@@ -1,9 +1,137 @@
-def f2(a):
-    assert isinstance(a,int),'a must be a interger'
-    str_a=str(a)
-    return (int(str_a[::-1]))
+a = {'a':1,'b':2}
+print(a.keys())
 
-f2(123)
+def f():
+    global x
+    for i in range(6):
+        x += 1
+        b = i
+
+x = 0
+b = 0
+f()
+print(x,b)
+# s=[1,2,3]
+# s.insert(2,100)
+# s.append([4,5,6])
+# s.insert(1,7)
+# del s[0]
+# print(s)
+# D={'name':'tom','age':36,'sex':'male','score':76,'f':lambda x,y,z:print(x+y+z)}
+# print(D['f'](D['name'],D['sex'],str(D['score'])))
+
+# ac = {'a' : 1, 'b' : 2}
+# print(ac['a'])
+# T=('Hello',[1,2,3,'World'],{'language':'python','computer':80586},lambda x,y,z:print(x+y+z))
+# print(T[-1](T[0],T[1][3],T[2]['language']))
+#
+# L=[(1,2,3),'abc',{'name':'peter','age':23},[3,4,5]]
+# print(str(L[-1][0])+L[1][2])
+# print(L[2]['name']+ list(L[2].keys())[1]+'is'+str(L[2]['age']))
+# print(L[0][0]+L[3][5]==6)
+# def demo(n):
+#     return n * n
+#
+#
+# f = lambda x: (demo(x))
+# print(f(6))
+#
+# T = {1: lambda x, y: x ** y, 2: lambda x: x ** 3, 3: lambda x, y, z: x + y + z}
+# print(T[3](3, 2, 4))
+
+# T=(lambda x,y:x**y,lambda x:x**3,lambda x,y,z:x+y+z)
+# print(T[0](2,3))
+#
+# f=lambda x,y=2,z=3:x*y*z
+#
+# print(f(1))
+# def f(a, b, c):
+#     print(c + b + a)
+#
+#
+# a = [1, 2, 3, 4]
+# f(*a)
+
+# def f1(m,b,c):
+#     print(c+b+m)
+#
+# a={'a':1,'b':2,'c':3}
+# f1(x=1,b=2,c=3)
+
+# def f1(a,b,c):
+#     print(c+b+a)
+#
+# a = {'a':1,'b':2,'c':3}
+# f1(*a.values())
+
+# def f(a, b, c):
+#     print(c, b, a)
+#
+#
+# a = [1, 2, 3]
+# f(*a)
+#
+#
+#     return (p)
+#
+#
+# print(f(age=23, name='peter', score=78))
+#
+#
+# def f(*p):
+#     print(p)
+#
+#
+# f(1, 'abc', 3.6)
+
+# a = [1, 2, 3]
+# a = a[::-1]
+# print(a)
+#
+# def f(b):
+#     a = b[::--1]
+#
+#
+# print(a)
+
+# a=[3,5,7]
+# def f3(b):
+#     b[0]=b[1]
+#     return b
+#
+# print(f3(a))
+
+# a = [3, 5, 7]
+#
+#
+# # print(a[::-1])
+#
+# def f3(b):
+#     b = b[::-1]
+#     # print(b)
+#     return b
+#
+#
+# print(a)
+# a = 3
+# def f(a):
+#     a = 5
+#
+# f(a)
+# print(a)
+# def f(a,b):
+#     return (a+b)*3
+#
+#
+# print(f((1,2),(3,4)))
+
+
+# def f2(a):
+#     assert isinstance(a,int),'a must be a interger'
+#     str_a=str(a)
+#     return (int(str_a[::-1]))
+# def
+# f2(123)
 
 
 # def f(a):
