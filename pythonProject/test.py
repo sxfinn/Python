@@ -1,16 +1,210 @@
-a = {'a':1,'b':2}
-print(a.keys())
 
-def f():
-    global x
-    for i in range(6):
-        x += 1
-        b = i
+# ans = 0
+# x = []
+# s = 11 * 7
+# for i in range(1,50):
+#
+#     if ans < 3000:
+#         list.append(x,ans)
+#     else:
+#         break
+#     ans += s
+# print(x)
+# b = []
+#
+# for i in range(3000):
+#     if i % 11 == 0 and i % 7 == 0:
+#         list.append(b, i)
+# print(b)
+# import random
+# for i in range(50):
+#     print(random.randrange(0,100,2))
+# cnt1 = 0
+# cnt2= 0
+# cnt3 = 0
+# strs = input('输入字符串：')
+# n = len(strs)
+# for i in range(n):
+#     if '0'<= strs[i] <='9':
+#         cnt1 += 1
+#     elif 'a' <= strs[i] <= 'z' or 'A' <= strs[i] <= 'Z':
+#         cnt2 += 1
+#     else:
+#         cnt3 += 1
 
-x = 0
-b = 0
-f()
-print(x,b)
+# print(cnt1,cnt2,cnt3)
+
+# for i in range(6):
+#     grade = input('请输入成绩')
+#     x = int(grade)
+#     if x < 60:
+#         print('bu及格')
+#     elif 60<x<80:
+#         print('及格')
+#     else:
+#         print('优秀')
+# import random
+# cnt1 = 0
+# cnt2 = 0
+# for i in range(100):
+#     if random.randint(1,100) % 2:
+#         cnt1 += 1
+#     else:
+#         cnt2 += 1
+#
+# print(cnt1,cnt2)
+# i = 17
+# while(i < 200):
+#     i += 17
+# print(i - 17)
+# print(not 2)
+#
+# for i in range(1, 101):
+#     if not i % 7 and i % 5:
+#         print(i)
+
+# global a
+# a = 3
+# def f():
+#     return a + 3
+#
+# print(a)
+# print(str(456)+'123')
+# a = 3
+# if a == 4:
+#     print('t')
+# elif a != 1:
+#     print(1)
+# x=['123','45','6','ab']
+# print(max(x,key = str))
+# print(max([23,4.5,60,76,87]))
+# f=lambda x,y:x*y
+# m = list(map(f,[1,2,3],[4,5,6]))
+# print(m)
+# x=[2,3,6,0,9,'as','ab']
+# a = [4.3,3.4,4.4]
+# print(max(x,key=str))
+# print(max(a,key=float))
+# print(tuple(map(str,[1,2,3])))
+# print(sum(range(4)))
+# def demo(a,b,c=5):
+#     print(b,c,a)
+#
+# demo(c=7,b=3,a=1)
+# def demo(**p):
+#     print('This is a dict',p)
+#
+# demo(7, 3, 1)
+# def f(a,b,c):
+#     print(c+b+a)
+#
+# a=[1,2,3]
+# f(*a)
+# def f():
+#     a=[1,2,3]
+#
+# global a
+# a=[4,5,6]
+# f()
+# a = [1,2,3]
+# a = [4,5,6]
+# print(a)
+# D={'f1':lambda:print('Ok'),'f2':lambda:print('Lambda'),'f3':lambda:print('Python')}
+# D['f2']()
+# print(1, 2, 3, sep=':')
+
+# global a
+# def f():
+#     return a +3
+#
+# a = 1
+# a += 1
+# print(f())
+# print(a)
+
+# print(a)
+# def f(p):
+#     return(a+p)
+#
+# global a
+# a=6
+# b=4
+# print(f(b))
+
+
+# string='Hello World'
+# print(string[:-2:-1])
+# b=10
+# # b + 1 = b + 1
+# a=b==10
+# print(a)
+# a=['a','b','c']
+# print(''.join(a))
+
+# def f():
+#     print('a')
+# print('9'-1)
+# a = 'abc.abc.ewjkfd'
+# print(a.split('.',1))
+# print(a)
+# str = 'abcd'
+# len = len(str)
+# print(len)
+# a = {'x':1,'v':2}
+#
+# a['x'] = 2
+# print(a)
+# 你 = 1
+# print(你)
+# is = 1
+# print(is)
+# for i in range(0,4):
+#     print(i)
+# print(i)
+# print(0 * 0)
+# print(True - 1)
+# print(False - 1)
+# a = list()
+# print(list())
+# print(tuple(range(1,5)))
+# x = {1,2}
+# print(x)
+# a = 'abcd'
+# a[0] = 'K'
+# print(a)
+# b = set('abc')
+# c = {'a','b','c'}
+# print(b)
+# print(c)
+# a = [1,2,3]
+# print(2 is a[1])
+# if a:
+#     print(1)
+# else:
+#     print(2)
+# L=tuple(3,2,1)
+# S = (3,2)
+# # print(L)
+# print(S)
+
+
+# a = [1,2,3]
+# m = max(a)
+# print(m)
+
+# a = {'a':1,'b':2}
+# print(a.keys())
+#
+# def f():
+#     global x
+#     for i in range(6):
+#         x += 1
+#         b = i
+#
+# x = 0
+# b = 0
+# f()
+# print(x,b)
 # s=[1,2,3]
 # s.insert(2,100)
 # s.append([4,5,6])
