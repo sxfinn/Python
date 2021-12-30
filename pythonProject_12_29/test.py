@@ -1,5 +1,19 @@
-
-
+import random
+a = []
+list.append(a,random.randint(1,100))
+b = []
+b.append(random.randint(1,100))
+print(a)
+print(b)
+# def f(a):
+#     print(type(a))
+#
+# a = []
+# b = 3.0
+# c = 3
+# f(a)
+# f(b)
+# f(c)
 # x = 0
 # str = []
 # while True:
