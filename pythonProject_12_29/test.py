@@ -1,3 +1,8 @@
+# L=[(1,2,3),'abc',{'name':'peter','age':23},[3,4,5]]
+# print(L[0][0]+L[3][5]==6)
+import math
+print(math.cos(3.14/3))
+
 import random
 a = []
 list.append(a,random.randint(1,100))
