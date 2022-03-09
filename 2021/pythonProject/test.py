@@ -1,3 +1,8 @@
+a = 1
+if a == 2:
+    print(a)
+else:
+    print(2)
 
 # ans = 0
 # x = []

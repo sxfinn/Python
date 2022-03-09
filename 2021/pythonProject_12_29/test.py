@@ -10,6 +10,9 @@ b = []
 b.append(random.randint(1,100))
 print(a)
 print(b)
+s = 11
+print(s)
+
 # def f(a):
 #     print(type(a))
 #
