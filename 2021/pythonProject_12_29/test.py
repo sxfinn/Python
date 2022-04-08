@@ -1,18 +1,27 @@
+for i in range(10):
+    print(i);
+
+# i = 0;
+# while(i < 10):
+#     i = i + 1
+#     print(i)
+
 # L=[(1,2,3),'abc',{'name':'peter','age':23},[3,4,5]]
 # print(L[0][0]+L[3][5]==6)
-import math
-print(math.cos(3.14/3))
-
-import random
-a = []
-list.append(a,random.randint(1,100))
-b = []
-b.append(random.randint(1,100))
-print(a)
-print(b)
-s = 11
-print(s)
-
+# import math
+# print(math.cos(3.14/3))
+#
+# import random
+# a = []
+# list.append(a,random.randint(1,100))
+# b = []
+# b.append(random.randint(1,100))
+# print(a)
+# print(b)
+# s = 11
+# print(s)
+# for i in range(10):
+#     print(i)
 # def f(a):
 #     print(type(a))
 #
